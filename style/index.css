@@ -1,0 +1,252 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	color: white;
+	font-family: "Tw Cen MT";
+	font-stretch: condensed;
+	font-weight: bold;
+}
+
+html {
+	background-color: #5DA32F;
+}
+
+.gold {
+	color: #C6C632;
+}
+
+.orange {
+	color: #F26419;
+}
+
+.letter-spacing {
+	letter-spacing: 0.05rem;
+	word-spacing: 0.3rem;
+}
+
+.arrow {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 0;
+}
+
+.arr-img {
+	margin-bottom: 2rem;
+	height: 2.9rem;
+	opacity: 0.25;
+	cursor: pointer;
+}
+
+
+#header {
+	display: flex;
+	flex-direction: column;
+
+	height: 100vh;
+	background-image: url("../assets/background-08.svg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+#header #navbar {
+	display: flex;
+	position: fixed;
+
+	z-index: 99;
+	height: 5rem;
+	width: 100%;
+	padding: 0.5rem 0 0.5rem 0;
+	background-color: #2F4858;
+}
+
+#header #navbar .logo {
+	max-height: 100%;
+}
+
+#header #navbar .left {
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	padding-left: 2rem;
+}
+
+#header #navbar .middle {
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	align-items: center;
+}
+
+#header #navbar .middle .text {
+	font-size: 2.7rem;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+#header #navbar .right {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 2rem;
+}
+
+#header #navbar .right .text {
+	font-size: 1.8rem;
+	margin: 0.4rem;
+	cursor: pointer;
+	color: #86BBD8;
+}
+
+#header #navbar .right .line {
+	margin-right: 0;
+	padding-right: 0.4rem;
+	border-right: 1.5px #86BBD8 solid;
+}
+
+
+#header .text-box-head {
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.text-box {
+	background: white;
+	border-radius: 12px;
+	z-index: 2;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.35);
+}
+
+#header .box1 {
+	margin: 14rem 8rem 0 0;
+	width: 45.5rem;
+	height: 5.5rem;
+}
+
+#header .box2 {
+	margin: 2.5rem 8rem 0 0;
+	width: 34.5rem;
+	height: 8.5rem;
+}
+
+.box-text {
+	font-size: 4rem;
+	color: black;
+	font-weight: normal;
+}
+
+#header .box1 .span {
+	color: #C6C632;
+}
+
+#header .box2 .span {
+	color: #F26419;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+}
+
+#main #who {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+#main #who .box3 {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	display: flex;
+	padding: 0.6rem;
+
+	margin: 9rem 0 5rem 0;
+}
+
+
+#main #who .box3 .box-text,
+#main #what .box4 .box-text {
+	font-size: 3.5rem;
+}
+
+
+#main #who .who-content {
+	display: flex;
+	flex-direction: row;
+	padding: 0 7rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#main #who .who-content .dogs {
+	flex: 1.1;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#main #who .who-content .dogs .dogs-img {
+	width: 80%;
+}
+
+#main #who .who-content .who-des {
+	flex: 1;
+	margin: 0 0 0 9rem;
+}
+
+#main .description {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+#main #what {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+#main #what .box4 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	padding: 0.6rem;
+	margin: 9rem 0 5rem 0;
+}
+
+#main #what .what-des {
+	text-align: center;
+	padding: 0 4rem;
+}
+
+#main #what .dog_solo {
+	margin: 0;
+}
+
+#main #what .dog_solo .dog_solo-img {
+	height: 16rem;
+}
+
+#main #what .arrow .arr-img {
+	transform: rotate(180deg);
+}
