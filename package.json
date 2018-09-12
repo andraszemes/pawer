@@ -1,0 +1,19 @@
+{
+  "name": "pawfinder",
+  "version": "1.0.0",
+  "description": "Pawfind your pawtner online now!\r By FireWall-E's © 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andraszemes/pawer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andraszemes/pawer/issues"
+  },
+  "homepage": "https://github.com/andraszemes/pawer#readme"
+}
