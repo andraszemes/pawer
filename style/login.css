@@ -43,7 +43,7 @@ p {
 	align-items: center;
 
 	background-color: #2F4858;
-	padding: 3rem;
+	padding: 3rem 0 0 0;
 }
 
 #header {
@@ -51,6 +51,18 @@ p {
 	font-size: 4.8rem;
 	align-self: center;
 	justify-self: center;
+}
+
+#close-button{
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	margin: 0;
+}
+
+#close-button .close-img{
+	height: 3rem;
+	cursor: pointer;
 }
 
 #login {
@@ -66,7 +78,7 @@ p {
 }
 
 #login #login-form #username {
-	margin-top: 7rem;
+	margin-top: 6rem;
 	padding-left: 1rem;
 	font-size: 2.3rem;
 	font-weight: normal;
@@ -87,6 +99,11 @@ p {
 	opacity: 1;
 }
 
+#login #login-form .forgot-pass{
+	margin: 0.5rem 0 0 1rem;
+	opacity: 0.8;
+	cursor: pointer;
+}
 #login #lets-go {
 	margin-top: 2rem;
 	font-size: 4rem;
